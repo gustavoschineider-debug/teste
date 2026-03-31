@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+
+<html lang="pt-br"> 
+
+<head> 
+    <meta charset="UTF-8"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <link rel="stylesheet" href="style.css"> 
+    <title>Acessibilidade no Colégio Cristo Rei</title> 
+</head> 
+
+<body> 
+
+```
+<header> 
+    <h1>Acessibilidade</h1> 
+
+    <input 
+        type="text" 
+        placeholder="Pesquisar..." 
+        aria-label="Campo de pesquisa"
+    > 
+
+    <button>Informações</button>
+</header> 
+
+<main>  
+
+    <section>
+        <h2>Sobre o projeto</h2>
+
+        <p>
+            Acessibilidade no Colégio Cristo Rei: promovendo inclusão e igualdade
+            para todos os alunos, garantindo acesso aos espaços e conteúdos.
+        </p>
+
+        <img 
+            src="https://live.staticflickr.com/8527/8515273766_df92c8156b_b.jpg" 
+            alt="Imagem do Colégio Cristo Rei mostrando a estrutura do local"
+        >
+    </section>
+
+    <section> 
+        <h2>Menu</h2>
+
+        <button>Saiba mais</button>
+        <button>O que é acessibilidade</button>
+        <button>Conheça o colégio</button>
+        <button>Contatos</button>
+        <button>Quiz</button>
+        <button>Aulas de programação</button>
+    </section> 
+
+</main> 
+
+<footer> 
+    <p>&copy; 2026 - Projeto de Acessibilidade</p>
+</footer> 
+```
+
+</body> 
+
+</html>

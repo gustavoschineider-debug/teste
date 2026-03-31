@@ -1,0 +1,104 @@
+/* Reset básico */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  }
+
+/* Corpo */
+body {
+background-color: #b30000; /* vermelho mais suave */
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+/* Header */
+header {
+background-color: black;
+display: flex;
+align-items: center;
+justify-content: space-between;
+flex-wrap: wrap; /* melhora em telas pequenas */
+gap: 10px;
+padding: 20px;
+}
+
+h1 {
+color: ghostwhite;
+font-size: 30px;
+}
+
+/* Input */
+input {
+width: 100%;
+max-width: 400px;
+height: 35px;
+padding: 8px;
+border-radius: 8px;
+border: none;
+outline: none;
+}
+
+
+button {
+background-color: silver;
+width: 150px;
+height: 40px;
+border-radius: 30px;
+border: none;
+cursor: pointer;
+transition: 0.3s;
+}
+
+button:hover {
+background-color: gray;
+color: white;
+}
+
+
+main {
+padding: 20px;
+margin: 20px;
+background-color: crimson;
+border-radius: 10px;
+}
+
+
+section {
+display: flex;
+align-items: center;
+justify-content: space-around;
+flex-wrap: wrap; /* responsivo */
+gap: 20px;
+color: white;
+margin: 20px 0;
+padding: 20px;
+}
+
+
+p {
+max-width: 400px;
+font-size: 18px;
+line-height: 1.4;
+}
+
+
+img {
+width: 100%;
+max-width: 400px;
+border-radius: 10px;
+}
+
+
+section button {
+background-color: blue;
+color: white;
+height: 80px;
+width: 220px;
+font-size: 18px;
+border-radius: 15px;
+}
+
+section button:hover {
+background-color: darkblue;
+}
