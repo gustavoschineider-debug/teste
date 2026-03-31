@@ -102,3 +102,9 @@ border-radius: 15px;
 section button:hover {
 background-color: darkblue;
 }
+footer{
+  height: 100px;
+  align-items: center;
+  justify-content: center;
+  background-color: pink;
+}
